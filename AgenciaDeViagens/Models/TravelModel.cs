@@ -8,5 +8,7 @@ namespace AgenciaDeViagens.Models
         public string? Destino { get; set; }
          public StatusTravel Status { get; set; }
 
+        public int UserId { get; set; }
+        public virtual UserModel User { get; set; } 
     }
 }

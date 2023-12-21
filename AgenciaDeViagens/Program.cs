@@ -25,6 +25,7 @@ namespace AgenciaDeViagens
              );
 
             builder.Services.AddScoped<IUserRepositorio, UserRepositorio>();
+            builder.Services.AddScoped<ITravelRepositorio, TravelRepositorio>();
 
 
 
